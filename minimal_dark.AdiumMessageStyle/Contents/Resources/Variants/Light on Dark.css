@@ -1,0 +1,22 @@
+body { background-color:#141414;color:#9a9a9a; }
+.container { border-top-color:#1e1e1e; }
+.status-notice { background-color:#1e1e1e;border-top-color:#141414; }
+
+/*.container.status-notice:hover .time_initial { color:#999; }*/
+
+a { color:#ab885c; }
+
+.incoming { color:#7687a6; }
+.outgoing { color:#cba86a; }
+.status { color:#9a7040; }
+.greyed { color:#656565; }
+
+.incoming_link a { color:#b0c4db; }
+.outgoing_link a { color:#cd7e37; }
+.status_link a { color:#d9efa4; }
+.greyed_link a { color: #656565; }
+
+.context_message { color:#4d4d4d; }
+.greyed img { opacity:.4; }
+
+.time_initial { color:#404040; }

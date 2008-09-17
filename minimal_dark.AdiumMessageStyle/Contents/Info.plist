@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Minimal Dark 1.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adiumx.minimal_dark.style</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>minimal_dark</string>
+	<key>CFBundlePackageType</key>
+	<string>AdIM</string>
+	<key>DefaultFontFamily</key>
+	<string>Helvetica Neue</string>
+	<key>DefaultFontSize</key>
+	<integer>10</integer>
+	<key>DefaultVariant</key>
+	<string>Black vs Grey</string>
+	<key>MessageViewVersion</key>
+	<integer>3</integer>
+	<key>ShowsUserIcons</key>
+	<true/>
+</dict>
+</plist>

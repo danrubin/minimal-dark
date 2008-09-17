@@ -1,0 +1,193 @@
+/*
+---------------------------------------------------------------------------
+  PROJECT: 	Adium Message Style
+
+FILE NAME: 	minimal_dark.AdiumMessageStyle    
+
+     NAME: 	Minimal Dark
+           	[http://superfluousbanter.org/downloads/adium/minimal_dark.AdiumMessageStyle.zip]
+
+ DESIGNER: 	Dan Rubin [http://superfluousbanter.org/]
+
+  CREATED: 	2008.05.08 [first local version]
+
+REVISIONS: 	1.0.2008.09.30 [first public version]
+           	new image background image [back_l.png]
+                
+     TODO: 	wait for new issues to arise via users or personal use.
+                                 
+ BASED ON: 	minimal_mod by John Muhl [http://caenim.com/], and in turn on
+            Minimal Adium Message Style [default package 0.8 b12 version]
+           	check http://www.adiumxtras.com/index.php?a=xtras&xtra_id=1576 for full credits
+---------------------------------------------------------------------------*/
+
+body
+{
+	color: #333333;
+	background-color: #ffffff;
+	background-image: url("images/back_l.png");
+	margin: 0;
+	padding-bottom:6px;
+	background-repeat: repeat-y;
+	line-height: 1.4em;
+	font-family: "helvetica neue";
+	font-size:10px;
+}
+
+p
+{
+	margin: 0;
+	padding: 0;
+}
+
+a { 
+	border-bottom: 1px dashed;
+	text-decoration: none; }
+a:hover{
+	border-bottom: 1px solid;
+}
+
+.convo_container
+{
+	width: 100%;
+	padding-bottom: 6px;
+}
+
+.container
+{
+	padding-top: 4px;
+	border-top: 1px solid #f4f4f4;
+}
+
+.container_next { padding-top: 2px; }
+
+.container, .container_next
+{
+	padding-left: 16px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	padding-bottom: 5px;
+}
+
+.status-notice {
+	padding-top:5px;
+	background-color:#f4f4f4;
+	border-color:#fff;
+}
+
+
+.fromstatus
+{
+	float: left;
+	padding-right: 7px;
+	position: relative;
+	top: 2px;
+	background:#eee;
+}
+
+.next_label
+{
+	font-size: 16px;
+	font-weight: normal;
+	position: relative;
+	top: 0px;
+	left: -12px;
+	text-align: right;
+	width: 10px;
+	float: left;
+	margin-right: -10px;
+}
+
+.sender { text-align: left; }
+
+.sender, .fromstatus
+{
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.sender, .next_label { overflow: hidden; }
+
+.time_initial
+{
+	color: #ddd;
+	float: right;
+	text-align: right;
+	padding-left: 6px;
+	font-size: 9px;
+}
+/*.container:hover .time_initial {
+	color:#ccc;
+}*/
+/*.container.status-notice:hover .time_initial {
+    color:#000;
+}*/
+
+.message {
+	overflow: auto;
+}
+.context_message { color: #999; }
+
+.message, .context_message
+{
+	width: auto;
+	text-align: left;
+}
+
+.indent { text-indent: 12px; }
+.clear { clear: both; }
+
+.buddyicon img
+{
+	float: left;
+	margin-top: 2px;
+	margin-right: 6px;
+	width: 24px;
+	height: 24px;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+
+.buddyicon img[src="Incoming/buddy_icon.png"], .buddyicon img[src="Outgoing/buddy_icon.png"] { display: none; }
+
+.placeholder {
+	margin-left: 30px;
+}
+
+.placeholder[visible="Incoming/buddy_icon.png"], .placeholder[visible="Outgoing/buddy_icon.png"] {
+	margin-left: 0;
+}
+
+.placeholder_next {
+	margin-left: 30px;
+}
+
+.placeholder_next[visible="Incoming/buddy_icon.png"], .placeholder_next[visible="Outgoing/buddy_icon.png"] {
+	margin-left: 0;
+}
+
+img
+{
+	vertical-align: middle;
+	top: -3px;
+}
+
+#Chat { overflow: hidden; }
+
+img.scaledToFitImage{ width:auto; }
+
+#header{ 
+    position: fixed; 
+    	top: 0px; 
+    	left: 0px; 
+    	right: 0px; 
+    margin: 0; 
+    padding: 5px; 
+    overflow: auto; 
+    color: #999;
+    text-align: center; 
+    font-size: 9px;
+    background: rgba(0,0,0,.80); 
+    z-index: 999; 
+}
